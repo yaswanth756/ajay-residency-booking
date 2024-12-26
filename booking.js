@@ -10,7 +10,7 @@ document.getElementById("doneButton").addEventListener("click", () => {
 });
         user = JSON.parse(userData); 
 const form = document.querySelector('.booking-form');
-document.querySelector(".dropdown-toggle").innerHTML="Welcome 🤗 "+user.name;
+document.querySelector(".dropdown-toggle").innerHTML="WLC🤗 "+user.name;
  form.addEventListener('submit', function(event) {
     event.preventDefault();
     const submitButton = form.querySelector('button[type="submit"]');
